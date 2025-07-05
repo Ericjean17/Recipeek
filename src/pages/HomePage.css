@@ -4,7 +4,7 @@ main {
             radial-gradient(ellipse at 60% 20%, #caffc9cc 0%, #aaffbb55 60%, transparent 100%), /* lighter green highlight top right */
             radial-gradient(ellipse at 20% 80%, #e0ffeccc 0%, #baffc955 60%, transparent 100%), /* lighter green highlight bottom left */
             linear-gradient(120deg, #eaffd0 0%, #b6f5a0 100%); /* lighter diagonal green gradient */
-    flex: 1;
+    flex: 1; 
 }
 
 .home-page {
