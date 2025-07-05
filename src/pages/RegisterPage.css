@@ -1,0 +1,73 @@
+.register-page {
+    background-image:
+        linear-gradient(180deg, #f6ffed 0%, #d6f9c2 50%, #b2f2d2 100%), /* lighter green vertical gradient */
+        radial-gradient(ellipse at 60% 20%, #caffc9cc 0%, #aaffbb55 60%, transparent 100%), /* lighter green highlight top right */
+        radial-gradient(ellipse at 20% 80%, #e0ffeccc 0%, #baffc955 60%, transparent 100%), /* lighter green highlight bottom left */
+        linear-gradient(120deg, #eaffd0 0%, #b6f5a0 100%); /* lighter diagonal green gradient */
+    margin: auto;
+    min-height: 100vh;
+}
+
+.register-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+form {
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    padding: 2.5rem 2.5rem;
+}
+
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.two-columns {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.user-input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.user-input input::placeholder {
+    font-size: 0.8rem;
+}
+
+.user-input label {
+    font-size: 0.875rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.user-input input {
+    font-size: 1rem; /* keep input text at normal size */
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+}
+
+.register-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.register-button button {
+    padding: 20px 13rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+}
